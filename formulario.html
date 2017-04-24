@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        	<title>Formulario de compra</title>
+        	<meta charset='UTF-8'>
+        	<link rel="stylesheet" href='css/estilos.css'>
+        	<link rel="stylesheet" href="css/fonts.css">
+	</head>
+	<body>
+        <form  action="respuesta.php" method="GET">
+        	<h2>Datos para comprar</h2>
+		<p style="color:white; text-align:center; font-size:16px"> Ingrese sus datos para completar su compra</p>
+    		<br>
+            	<input type="text" name="rut" placeholder="Rut" ID="rut" required>
+            	<input type="text" name="nombre" placeholder="Nombre" ID="nombre" required>
+            	<input type="text" name="apellidos" placeholder="Apellidos" ID="apellidos" required>
+            	<input type="text" name="correo" placeholder="Correo" ID="correo" required>
+            	<input type="text" name="telefono" placeholder="Teléfono (+569)xxxxxxxx" ID="telefono" required>
+            	<input type="text" name="tarjeta" placeholder="Tipo de tarjeta (Crédito o Débito)" ID="tarjeta" required>
+            	<input type="text" name="ntarjeta" placeholder="Número de la tarjeta" ID="ntarjeta" required>
+            	<input type="submit" value="ENVIAR" ID="boton1">
+        </form>
+    </body>
+</html>
